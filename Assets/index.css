@@ -59,7 +59,7 @@ nav .nav-links  ul  li{
 }
 .txt2{
     margin-top: 400px;
-    padding-left: 100px;
+    padding-left: 300px;
     font-size: 40px;
 }
 .txt2 button{
@@ -71,4 +71,42 @@ nav .nav-links  ul  li{
     margin-top: 200px;
     border-left: 0 0 0 rounded;
 }
-
+.txt2 hr{
+    width: 400px;
+    height: 5px;
+    background: radial-gradient(brown, orange, black)
+}
+.txt2 h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.div-img1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+#sect3{
+    margin-top: 150px;
+}
+#sect3 hr{
+    width: 400px;
+    height: 5px;
+    background: radial-gradient(brown, orange, black);
+    margin-left: 300px;
+    margin-left: 300px;
+}
+#sect3 h1{
+    font-weight: 900;
+    font-size: 100px;
+    margin-left: 300px;
+}
+footer{
+    background-color: black;
+    margin-top: 200px;
+    height: 40vh;
+    padding-left: 100px;
+}
+footer p{
+    color: #ffffff;
+    font-size: 50px;
+}
