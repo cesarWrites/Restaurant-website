@@ -14,18 +14,12 @@ nav > .nav-links > ul > li{
     color: white;}
 
 #sect1{
-    background-image: url("moving\ 1.png");
+    background-image: url("./images/moving\ 1.png");
     background-size: cover; 
-    background-position: center center;
-    height:60vh;
+    background-position: center;
+    height:100vh;
     display: flex;
     align-items: center;
     justify-content: center;
   
-}
-hr{
-    width: 100px;
-    height: 2px;
-    margin-left: 50px;
-    color: orangered;
 }
