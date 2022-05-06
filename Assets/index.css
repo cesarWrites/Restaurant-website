@@ -4,22 +4,71 @@
 }
 nav{
     display: flex;
-    justify-content: space-between;
-    margin-top: 25px;
-    padding: 20px;
+    flex-direction: column;
+    margin-top: 200px;
+    padding-left: 500px;
+    padding-bottom: 200px;
+    align-items: center;
+    font-size: 50px;
+    color: #ffffff;
 }
-nav > .nav-links > ul > li{
+#text1{
+    color:#FAFF00;
+    font-size: 50px;
+    text-align: justify;
+    float: left;
+    padding-left: 150px;
+}
+#text1 p{
+    color: #ffffff;
+    margin-top: 50px;
+}
+nav .nav-links  ul  li{
     display: inline-block;
-    padding: 10px;
+    margin-right: 100px;
     color: white;}
-
+    nav .nav-links ul li a{
+        color: #ffffff;
+        font-size: 30px;
+    }
+    .nav-links button{
+        width: 100px;
+        height: 50px;
+        background-color: #FAFF00;
+    }
+    .nav-links #btn1{
+        width: 75px;
+        height: 35px;
+        background-color: black;
+        color: #FAFF00;
+        font-size: 20px;
+        margin-left: 20px;
+    }
 #sect1{
     background-image: url("./images/moving\ 1.png");
     background-size: cover; 
     background-position: center;
     height:100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column; 
   
 }
+#sect2{
+    display: flex;
+    margin-top: 100px;
+}
+.txt2{
+    margin-top: 400px;
+    padding-left: 100px;
+    font-size: 40px;
+}
+.txt2 button{
+    color: #FAFF00;
+    background-color: black;
+    width: 250px;
+    height: 70px;
+    font-size: 25px;
+    margin-top: 200px;
+    border-left: 0 0 0 rounded;
+}
+
