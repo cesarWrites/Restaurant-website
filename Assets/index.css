@@ -193,7 +193,15 @@ nav .nav-links  ul  li{
     text-align: center;
     padding-top: 20px;
 }
-
+.bx-1{
+    margin-right: 50px;
+}
+.bx-2{
+    margin-right: 50px;
+}
+.bx-3{
+    margin-right: 50px;
+}
 #btn-1{
     border-top-right-radius: 20px;
     width: 300px;
@@ -202,6 +210,11 @@ nav .nav-links  ul  li{
     font-size: 30px;
 }
 /*styling for the second page*/
+.container-1{
+    background-color: rgba(244, 252, 249, 0.966);
+    padding-left: 20px;
+    padding-right: 50px;
+}
 #abt-sect1{
     background-color: black;
 }
@@ -211,7 +224,6 @@ nav .nav-links  ul  li{
 }
 #abt-sect2{
     display: flex;
-    margin-top: 100px;
 }
 form{
     width: 500px;
@@ -275,11 +287,19 @@ form button{
 #abt-sect4 p{
     margin-top: 30px;  
 }
+#abt-sect5 h3{
+    font-size: 40px;
+    margin-top: 20px;
+}
 #abt-sect5{
     margin-top: 200px;
 }
+#abt-sect5 h1{
+    margin-bottom: 30px;
+}
 .div-img5{
     display: flex;
+    flex-direction:row;
 }
 
 
