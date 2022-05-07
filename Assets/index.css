@@ -225,6 +225,18 @@ nav .nav-links  ul  li{
 #abt-sect2{
     display: flex;
 }
+#abt-sect3{
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px
+
+}
+#abt-sect3 h3{
+    
+}
 form{
     width: 500px;
     height: 800px;
