@@ -112,6 +112,7 @@ nav .nav-links  ul  li{
 #sect3{
     margin-top: 150px;
     width: fit-content;
+    padding-top: 200px;
 }
 #sect3 hr{
     width: 400px;
@@ -196,6 +197,7 @@ nav .nav-links  ul  li{
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    width: 300px;
 }
 .bx-2{
     margin-right: 50px;
@@ -228,6 +230,9 @@ nav .nav-links  ul  li{
 /*styling for the second page*/
 .container-1{
     background-color: rgba(244, 252, 249, 0.966);
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-right: 200px;
 }
 #abt-sect1{
     background-color: black;
@@ -238,7 +243,17 @@ nav .nav-links  ul  li{
 }
 .abt-txt{
     color: #ffffff;
-    font-size: 50px;;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.hd-2{
+    padding-left: 10%;
+    font-size: 30px;
+}
+.hd-1{
+    padding-left: 50%;
+    font-size: 30px;
 }
 #abt-sect2{
     display: flex;
@@ -263,9 +278,6 @@ form{
     width: 700px;
     height: 1000px;
     background-color: #ffffff;
-    margin-left: 30px;
-    box-sizing: border-box;
-    box-shadow: gainsboro;
     border: 2px solid gainsboro ;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -417,8 +429,9 @@ form button{
 }
 footer{
     background-color: black;
-    height: 60vh;
+    height: 70vh;
     padding-left: 100px;
+    padding-top: 100px;
 }
 footer p{
     color: #ffffff;
@@ -426,12 +439,14 @@ footer p{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+#tx-1{
+    padding-top: 100px;
+}
 footer hr{
     background-color: #dbcccca2;
     height: 0%;
     opacity: 0.6;
     font-weight: 100;
-
 }
 #ft-1{
     display: flex;
@@ -448,5 +463,17 @@ footer hr{
     background-color: orange;
     font-size: 30px;
 }
-.icon-links{
+.icon-links ul{
+    display: flex;
+    flex-direction: row;
+}
+.icon-links ul li{
+    margin-right: 30px;
+}
+#nav-btn{
+    border-top-right-radius: 30px;
+    width: 300px;
+    height: 100px;
+    background-color: orange;
+    font-size: 30px;
 }
