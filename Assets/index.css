@@ -4,6 +4,10 @@
     margin: 0;
     border: 2px solid red;
 }
+.container{
+    margin-left: 200px;
+    margin-right: 200px;
+}
 nav{
     display: flex;
     flex-direction: column;
@@ -145,10 +149,10 @@ form{
     box-sizing: border-box;
     box-shadow: gainsboro;
     border: 2px solid gainsboro ;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 form input{
@@ -182,4 +186,52 @@ form button{
     margin-left: 20px;
     color: #FAFF00;
     font-size: 30px;
+}
+.div-img4{
+    margin-top: 20px;
+}
+.div-img4 img{
+    margin-right: 40px;
+}
+#abt-sect4{
+    margin-top: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#abt-sect4 p{
+    margin-top: 30px;  
+}
+#abt-sect5{
+    margin-top: 200px;
+}
+
+#abt-sect5 h1{
+    margin-left: 300px;
+    margin-top: 30px;
+    font-size: 40px;
+
+}
+#abt-sect5 hr{
+    width: 400px;
+    height: 5px;
+    background: radial-gradient(brown, orange, black);
+    margin-left: 300px;
+    margin-left: 300px;}
+#desc-sect{
+    margin-top: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 1
+
+}
+.desc{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+#ls-1{
+    margin-right: 100px;
 }
