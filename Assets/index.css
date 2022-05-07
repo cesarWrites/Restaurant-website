@@ -118,6 +118,62 @@ nav .nav-links  ul  li{
 }
 #box1{
     margin-right: 100px;
+    background-color: #ffffff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#box2{
+    margin-right: 100px;
+    background-color: #ffffff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#box3{
+    background-color: #ffffff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#box4{
+    margin-right: 100px;
+    background-color: #ffffff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#box5{
+    margin-right: 100px;
+    background-color: #ffffff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#box6{
+    background-color: #ffffff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.bt-1{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid gray;
+}
+.bt-1 p{
+    border-right: 2px solid gray;
+    font-size: 30px;
+    width: 33%;
+    height: 75px;
+    text-align: center;
 }
 footer{
     background-color: black;
@@ -127,6 +183,12 @@ footer{
 footer p{
     color: #ffffff;
     font-size: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer hr{
+    background-color: #ffffff;
+    height: 0px;
 }
 #btn-1{
     border-top-right-radius: 20px;
@@ -212,6 +274,10 @@ form button{
 #abt-sect5{
     margin-top: 200px;
 }
+.div-img5{
+    display: flex;
+}
+
 
 #abt-sect5 h1{
     margin-left: 300px;
@@ -253,6 +319,9 @@ form button{
     flex-direction: row;
     float: right;
     margin-right: 200px;
+}
+.foot-nav ul li{
+    list-style: none;
 }
 .nav-02{
     margin-left: 200px;
