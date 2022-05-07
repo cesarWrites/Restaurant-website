@@ -235,7 +235,11 @@ nav .nav-links  ul  li{
 
 }
 #abt-sect3 h3{
-    
+    color: black;
+    margin-left:30px;
+    font-size: 30px; 
+    margin-top: 20px; 
+    font-weight: normal;  
 }
 form{
     width: 500px;
@@ -271,7 +275,9 @@ form textarea{
     height: 200px;
     margin-left: 20px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 30px;
+    text-align: justify;
+    padding-top: 30px;
 }
 form button{
     border-top-right-radius: 20px;
@@ -290,14 +296,18 @@ form button{
     margin-right: 40px;
 }
 #abt-sect4{
-    margin-top: 30px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
+    margin-top: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: #ffffff;
 }
 #abt-sect4 p{
-    margin-top: 30px;  
+    margin-top: 50px;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 #abt-sect5 h3{
     font-size: 40px;
