@@ -4,13 +4,9 @@
     margin: 0;
     font-family: 'Poppins',  'Actor', 'Adamin';
 }
-@media screen and (max-width: 800px) {
-    body{
-      width: 100%; 
-    }
-  }
+
 .container{
-    background-color: rgba(244, 252, 249, 0.966);
+    background-color: rgb(230, 222, 222);
     margin-top: 50px;
     padding-bottom: 200px;
     position: relative;
@@ -195,6 +191,7 @@ nav .nav-links  ul  li{
     height: 75px;
     text-align: center;
     padding-top: 20px;
+    
 }
 .bt-1 .pr-1{
     border: none;
@@ -206,6 +203,9 @@ nav .nav-links  ul  li{
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    max-width: 40%;
+    height: fit-content;
+
 
 }
 .bx-2{
@@ -214,7 +214,9 @@ nav .nav-links  ul  li{
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
-   
+    border-bottom-right-radius: 50px;
+    max-width: 40%;
+   height: fit-content;
 }
 .bx-3{
     margin-right: 50px;
@@ -223,19 +225,27 @@ nav .nav-links  ul  li{
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    max-width: 40%;
+    height: fit-content;
 }
 .bx-4{
-    width: fit-content;
-    height: fit-content;
-    margin-right: 50px;
     background-color: #ffffff;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    width: 10%;
+    width: fit-content;
+    max-height: fit-content;
+}
+.img{
+   max-width: 400px;
+   object-fit: contain; 
 }
 
+.img-1{
+    max-width: 200px;
+    object-fit: contain;
+}
 #btn-1{
     border-top-right-radius: 20px;
     width: 300px;
@@ -394,9 +404,7 @@ form button{
 }
 .div-img5{
     display: flex;
-    margin-left: 50px;
     flex-direction: row;
-    width: fit-content;
     height: fit-content;
 }
 
@@ -532,3 +540,17 @@ footer hr{
 #spn-3{
     color: #FAFF00;
 }
+@media screen and (max-width: 600px) {
+    body {
+      padding-left: 0;
+      padding-right: 0;
+      max-width: fit-content;
+
+    }
+    .div-img5{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
