@@ -213,7 +213,7 @@ nav .nav-links  ul  li{
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+   
 }
 .bx-3{
     margin-right: 50px;
@@ -232,6 +232,7 @@ nav .nav-links  ul  li{
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    width: 10%;
 }
 
 #btn-1{
@@ -524,7 +525,10 @@ footer hr{
     background-color: orange;
     font-size: 30px;
 }
-#spn-1{
+.spn-1{
     color: #ffffff;
     width: 100px;
+}
+#spn-3{
+    color: #FAFF00;
 }
