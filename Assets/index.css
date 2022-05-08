@@ -13,6 +13,7 @@
     background-color: rgba(244, 252, 249, 0.966);
     margin-top: 50px;
     padding-bottom: 200px;
+    position: relative;
 }
 nav{
     display: flex;
@@ -250,7 +251,7 @@ nav .nav-links  ul  li{
 /*styling for the second page*/
 .container-1{
     background-color: rgb(230, 222, 222);
-    padding-left: 150px;
+    padding-left: 200px;
     padding-top: 100px;
     padding-right: 200px;
     padding-bottom: 300px;
@@ -266,7 +267,7 @@ nav .nav-links  ul  li{
     color: #ffffff;
     font-size: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
 }
 .hd-2{
     padding-left: 10%;
@@ -457,8 +458,7 @@ form button{
     flex-direction: row;
     float: right;
     font-size: 30px;
-    padding-top: 150px;
-    padding-bottom: 200px;
+    padding-top: 50px;
 }
 .foot-nav ul li{
     list-style: none;
@@ -473,15 +473,15 @@ form button{
 }
 footer{
     background-color: black;
-    height: 70vh;
+    height: 60vh;
     padding-left: 100px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 200px;
 }
 footer p{
     color: #ffffff;
     font-size: 50px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 #tx-1{
@@ -509,7 +509,7 @@ footer hr{
     font-size: 30px;
 }
 .icon-links{
-    padding-top: 50px;
+    padding-top: 20px;
 }
 .icon-links ul{
     display: flex;

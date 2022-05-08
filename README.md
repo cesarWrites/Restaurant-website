@@ -25,7 +25,7 @@ CSS 3
 The only issue was integrating responsive design to the website.
 
 ##  Features
-<p>Simplifies teh process of iedntfying moving experts.</p>
+<p>Simplifies the process of iedntfying moving experts.</p>
 <p>Incorprates a form that users can fill to make bookings.</p>
 
 
