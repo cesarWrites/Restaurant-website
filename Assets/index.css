@@ -230,9 +230,10 @@ nav .nav-links  ul  li{
 /*styling for the second page*/
 .container-1{
     background-color: rgba(244, 252, 249, 0.966);
-    padding-left: 200px;
-    padding-top: 50px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-bottom: 300px;
 }
 #abt-sect1{
     background-color: black;
@@ -257,6 +258,7 @@ nav .nav-links  ul  li{
 }
 #abt-sect2{
     display: flex;
+    padding-left: 200px;
 }
 #abt-sect3{
     margin-top: 50px;
@@ -276,13 +278,14 @@ nav .nav-links  ul  li{
 }
 form{
     width: 700px;
-    height: 1000px;
+    height: fit-content;
     background-color: #ffffff;
     border: 2px solid gainsboro ;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    padding-bottom: 30px;
 }
 
 form input{
@@ -299,6 +302,9 @@ form input{
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     margin-left: 20px;
+}
+form p{
+    font-size: 30px;
 }
 form textarea{
     width: 450px;
@@ -412,7 +418,7 @@ form button{
     display: flex;
     flex-direction: row;
     float: right;
-    font-size: 20px;
+    font-size: 30px;
     padding-top: 150px;
     padding-bottom: 200px;
 }
