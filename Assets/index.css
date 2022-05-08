@@ -4,11 +4,11 @@
     margin: 0;
     font-family: 'Poppins',  'Actor', 'Adamin';
 }
-@media screen {
+@media screen and (max-width: 800px) {
     body{
-
+      width: 100%; 
     }
-}
+  }
 .container{
     background-color: rgba(244, 252, 249, 0.966);
     margin-top: 50px;
@@ -441,6 +441,8 @@ form button{
 }
 .desc ul li{
     margin-top: 20px;
+    list-style: none;
+    list-style-position: inside;    
 }
 #ls-1 {
     margin-right: 200px;
@@ -521,4 +523,8 @@ footer hr{
     height: 100px;
     background-color: orange;
     font-size: 30px;
+}
+#spn-1{
+    color: #ffffff;
+    width: 100px;
 }
